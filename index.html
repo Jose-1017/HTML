@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://jsdelivr.net">
+
+
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">José Julián Arévalo C <i class="bi bi-airplane-engines"></i></h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sobre-mi">
+        <h2>Sobre mí <i class="fa-solid fa-address-card"></i></h2>
+        <p>
+            Soy Ingeniero Mecánico egresado de la Universidad del Norte, con experiencia en
+            mantenimiento industrial y gestión de operaciones. Cuento con conocimientos en
+            modelado 3D, simulación mecánica y energía fotovoltaica, utilizando herramientas
+            como SolidWorks e Inventor.
+        </p>
+    </section>
+
+
+    <section class="proyectos">
+        <h2>Proyectos <i class="fa-regular fa-floppy-disk"></i></h2>
+
+        <div class="cuadro-proyectos">
+
+            <div class="tarjeta-proyecto">
+                <h3>Mi Portafolio <i class="fa-regular fa-folder-open"></i></h3>
+                <p>Sitio web personal hecho con HTML y CSS.</p>
+                <a href="https://github.com/Jose-1017/Jose-1017.git" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <h3>Inventario <i class="fa-regular fa-pen-to-square"></i></h3>
+                <p>Sistema para gestionar y controlar inventario.</p>
+                <a href="https://github.com/Jose-1017/Inventario.git" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <h3>MathGrade <i class="fa-regular fa-hourglass-half"></i>  </h3>
+                <p>Aplicación para calcular y seguir calificaciones.</p>
+                <a href="https://github.com/Jose-1017/MathGrade.git" target="_blank">Ver proyecto</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto <i class="fa-regular fa-user"></i></h2>
+        <form>
+            <label for="nombre">Nombre <i class="bi bi-person-circle"></i> </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+
+            <label for="email">Correo electrónico <i class="bi bi-envelope"></i> </label>
+            <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com">
+
+            <label for="mensaje">Mensaje <i class="fa-regular fa-comments"></i> </label>
+            <input class="mensaje" type="text" id="mensaje" name="mensaje" placeholder="Deja tu mensaje aquí...">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 José Julián Arévalo C.</p>
+    </footer>
+
+</body>
+</html>
