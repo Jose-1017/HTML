@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="title">José Julián Arévalo C <i class="bi bi-airplane-engines"></i></h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="mascotas.html">Pets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <div id="welcome-top">
+            <p id="welcome-title">Welcome to my page</p>
+            <p id="welcome-message" style="display: none;">Hi! I am José Julian, Mechanical Engineer and developer in training. Thank you for visiting my site!</p>
+        </div>
+        <div>
+            <button type="button" id="welcome-btn">Show message</button>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <h2>About Me <i class="fa-solid fa-address-card"></i></h2>
+        <p>
+            I am a graduated Mechanical Engineer from the Universidad del Norte, with experience in
+            industrial maintenance and operations management.
+        </p>
+        <div id="extra-info">
+            <p>I also have knowledge in 3D modeling, mechanical simulation
+            and photovoltaic energy, using tools such as SolidWorks and Inventor.</p>
+        </div>
+        <button id="btn-more">Show more</button>
+    </section>
+
+    <section class="projects">
+        <h2>Projects <i class="fa-regular fa-floppy-disk"></i></h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>My Portfolio <i class="fa-regular fa-folder-open"></i></h3>
+                <p>Personal website created with HTML and CSS.</p>
+                <a href="https://github.com/Jose-1017/Jose-1017.git" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Inventory <i class="fa-regular fa-pen-to-square"></i></h3>
+                <p>System for managing and controlling inventory.</p>
+                <a href="https://github.com/Jose-1017/Inventario.git" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>MathGrade <i class="fa-regular fa-hourglass-half"></i></h3>
+                <p>Application to calculate and track grades.</p>
+                <a href="https://github.com/Jose-1017/MathGrade.git" target="_blank">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact <i class="fa-regular fa-user"></i></h2>
+        <form>
+            <label for="name">Name <i class="bi bi-person-circle"></i></label>
+            <input type="text" id="name" name="name" placeholder="Your name...">
+
+            <label for="email">Email <i class="bi bi-envelope"></i></label>
+            <input type="email" id="email" name="email" placeholder="name@example.com">
+
+            <label for="message">Message <i class="fa-regular fa-comments"></i></label>
+            <input class="message-field" type="text" id="message" name="message" placeholder="Leave your message here...">
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 José Julián Arévalo C.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
