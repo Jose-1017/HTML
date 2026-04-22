@@ -166,7 +166,7 @@ Or use the **Live Server** extension in VS Code for local development with auto-
 
 **José Julián Arévalo C.**  
 Mechanical Engineer | Front-end Developer in training  
-Universidad del Norte — Barranquilla, Colombia  
+Barranquilla, Colombia  
 
 GitHub: [@Jose-1017](https://github.com/Jose-1017)
 
