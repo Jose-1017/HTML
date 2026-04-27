@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Band</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>🔥 Dark Noise</h1>
+        <nav>
+            <ul>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#media">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h2>Feel the Noise</h2>
+        <p>The best underground rock band</p>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+
+        <article>
+            <h3>Live in Bogotá</h3>
+            <p>Date: June 20</p>
+            <p>Location: Royal Center</p>
+        </article>
+
+        <article>
+            <h3>Medellín Tour</h3>
+            <p>Date: July 10</p>
+            <p>Location: Teatro Metropolitano</p>
+        </article>
+    </section>
+
+    <!-- TABLE (PUNTO EXTRA) -->
+    <section>
+        <h2>Event Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Date</th>
+                    <th>Place</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bogotá</td>
+                    <td>June 20</td>
+                    <td>Royal Center</td>
+                </tr>
+                <tr>
+                    <td>Medellín</td>
+                    <td>July 10</td>
+                    <td>Teatro Metropolitano</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About the Band</h2>
+        <p>Dark Noise is a rock band inspired by grunge and alternative sounds.</p>
+
+        <!-- LISTA OBLIGATORIA -->
+        <h3>Influences</h3>
+        <ul>
+            <li>Nirvana</li>
+            <li>Metallica</li>
+            <li>Arctic Monkeys</li>
+        </ul>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media">
+        <h2>Media</h2>
+        <img src="band.jpg" alt="Band image">
+        <iframe width="300" src="https://www.youtube.com/embed/example"></iframe>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Follow us:</p>
+        <ul>
+            <li>Instagram</li>
+            <li>Spotify</li>
+            <li>YouTube</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
+
